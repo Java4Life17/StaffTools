@@ -1,0 +1,15 @@
+name: StaffTools
+version: 1.0-SNAPSHOT
+main: stafftools.stafftools.StaffTools
+authors: [Nvme_SSD, HardDrive, ProxyGaming17]
+description: Herramientas para manejar multi cuentas.
+commands:
+  Mlcheck:
+    description: Manejo de multi-cuentas de usuarios.
+permissions:
+  Mlcheck.Cuentas:
+    description: Ver cuantas cuentas tiene un usuario!
+    default: op
+  Mlcheck.Cuentas.Admin:
+    description: El comando mas avanzado del plugin!
+    default: op
