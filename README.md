@@ -6,6 +6,7 @@ Al instalar este plugin, tienes que tener en mente que este plugin no implementa
  - /mlcheck <cuentas> <nombre de usuario> - Te muestra una lista de las cuentas con las que ese mismo usuario se ah conectado. PERMISO: Mlcheck.Cuentas
  - /mlcheck <repara> <nombre de cuenta> - Te permite reparar una cuenta en caso de que un usuario ah registrado la cuenta de alguien mas en su IP. PERMISO: Mlcheck.Cuentas
  - /mlcheck <borrar> <nombre de cuenta> - Borra toda la seccion de configuracion de esa cuenta. PERMISO: Mlcheck.Cuentas.Admin
- - deathInv manejar <nombre de usuario> - Maneja los inventarios de los usuarios que an muerto.
+ - deathInv <todo/Manejar> <nombre de usuario> - Maneja los inventarios de los usuarios que an muerto. PERMISO: StaffTools.DeathInventories.Manage
+ PERMISO PARA VER INFORMACION DETALLADA DE LA MUERTE DE UN JUGADOR - StaffTools.Deathinfo
  
   
