@@ -9,4 +9,4 @@ Al instalar este plugin, tienes que tener en mente que este plugin no implementa
  - deathInv <todo/Manejar> <nombre de usuario> - Maneja los inventarios de los usuarios que an muerto. PERMISO: StaffTools.DeathInventories.Manage
  PERMISO PARA VER INFORMACION DETALLADA DE LA MUERTE DE UN JUGADOR - StaffTools.Deathinfo
  
-  
+  Descarga: http://www.mediafire.com/file/u59l9pxzklpwjs1/StaffTools.jar/file
