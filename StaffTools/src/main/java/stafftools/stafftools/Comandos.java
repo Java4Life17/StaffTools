@@ -122,6 +122,18 @@ public class Comandos implements CommandExecutor {
 
 
                 }
+                else if(args[0].equalsIgnoreCase("reload")){
+                    if (!player.hasPermission("Mlcheck.Cuentas.Admin")) {
+                        utiles.soindoP(player, Sound.ENTITY_VILLAGER_NO, 1.1F);
+                        utiles.colorMSG(player, "&cNo tienes permiso para este comando!");
+                        return false;
+                    }
+
+                    utiles.colorMSG(player, "&aEl plugin se ah recargado!");
+                    utiles.soindoP(player, Sound.ENTITY_PHANTOM_DEATH, 1.2F);
+                    plugin.Multicuentas.load();
+                    plugin.Multicuentas.save();
+                }
 
 
             } catch (Exception e) {
@@ -129,6 +141,7 @@ public class Comandos implements CommandExecutor {
                 utiles.colorMSG(player, "&5/Mlcheck cuentas <jugador> - &7Ver las cuentas de un jugador");
                 utiles.colorMSG(player, "&5/Mlcheck fix <Nombre de Cuenta> - &7- Reparar una cuenta que fue" +
                         " registrada con otra IP.");
+                utiles.colorMSG(player, "&5/Mlcheck borrar <jugador> - &7Borrar toda la data de una seccion. ");
                 utiles.soindoP(player, Sound.ENTITY_GUARDIAN_DEATH, 1.1F);
             }
         }

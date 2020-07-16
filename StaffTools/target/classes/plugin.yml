@@ -1,15 +1,24 @@
 name: StaffTools
 version: 1.0-SNAPSHOT
 main: stafftools.stafftools.StaffTools
+api-version: 1.13
 authors: [Nvme_SSD, HardDrive, ProxyGaming17]
 description: Herramientas para manejar multi cuentas.
 commands:
   Mlcheck:
     description: Manejo de multi-cuentas de usuarios.
+  deathInv:
+    description: Menajo de inventarios de jugadores que an muerto.
 permissions:
   Mlcheck.Cuentas:
-    description: Ver cuantas cuentas tiene un usuario!
+    description: Ver cuantas cuentas tiene un usuario.
     default: op
   Mlcheck.Cuentas.Admin:
-    description: El comando mas avanzado del plugin!
+    description: El comando mas avanzado del plugin.
+    default: op
+  StaffTools.DeathInventories.Manage:
+    description: Maneja los inventarios guardados de las muertes.
+    default: op
+  StaffTools.DeathInfo:
+    description: Mira quien muere, donde, y causa de muerte.
     default: op
